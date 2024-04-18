@@ -1,0 +1,23 @@
+A=[12,34,56,78,90]
+n=len(A)
+print(A)
+
+#accepting input from the user:-
+A=list(map(int,input().split()))
+n=len(A)
+print(A)
+
+#To check given number is present in the list or not(liner serach):-
+A=[12,34,56,78,90]
+n=len(A)
+target=89
+print(A)
+visited=0
+for i in range(n):
+    if A[i]==target:
+        print("Element is Found")
+        visited=1
+        break
+    if visited==0:
+        print("Element not found")
+
