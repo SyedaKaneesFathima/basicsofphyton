@@ -1,0 +1,41 @@
+i=23
+while i<30:
+    print("statement-1")
+    print("statement-2")
+    i=i+1
+print("first line is exectued")
+print("second line is exectued" )
+
+
+i=56
+while i<98:
+   print(i)
+    i=i+1
+print("while loop execution")
+
+i=1222
+while i>994:
+    print(i)
+   i=i-1
+print("while loop execution")
+
+i=5
+j=1
+while j<=10:
+    print(i*j)
+    j=j+1
+#print("table of 5")
+
+
+print("even numbers from 12 to 56 are:")
+i=12
+while i<=56:
+    if i%2==0:
+        print(i)
+        i=i+2
+    
+    else :
+        print()
+print("execution completed")
+
+
