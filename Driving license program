@@ -1,0 +1,6 @@
+Age=int(input())
+if Age>=18:
+    print("Eligible for license")
+else:
+    print("not-Eligible for license")
+print("Thank you for applying")
