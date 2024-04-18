@@ -1,0 +1,28 @@
+#functions:-
+print("hello function")
+def solveIt2():
+    print("hi")
+    print("three")
+    print("phyton")
+def solveIt4():
+    print("hello")
+    solveIt2()
+    print("i am getting exectued")
+def solveIt():
+    print("this is line 1")
+    print("this is line 2")
+    solveIt4()
+    print("bye")
+def sumoftwonumbers(num1,num2):
+    print("after exectution")
+    solveIt()
+    print("nothing gets printed")
+    result=num1+num2
+    print("before exectuion")
+    return result
+print("last is getting exectued")    
+num1=int(input())
+num2=int(input())
+result=sumoftwonumbers(num1,num2)
+print(result)  
+print("first line is getting exectued") 
