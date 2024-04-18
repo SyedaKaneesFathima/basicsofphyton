@@ -1,0 +1,30 @@
+def numisgreater(li,target):
+    n=len(li)
+    result=0
+    for i in range(n):
+        if li[i] >target:
+            result=result+1
+    return result
+          
+li=[12,12,43,54,67,12]
+target=12    
+result=numisgreater(li,target)  
+print(" Total number greater than target are",result)   
+
+#To find total even numbers in list:-
+def Totalevennumbers(li,target):
+    n=len(li)
+    result=0
+    for i in range(n):
+        if li[i] %2==0:
+            result=result+1
+    return result
+          
+li=[12,12,43,54,67,12]
+target=12    
+result=Totalevennumbers(li,target)  
+print(" Total EVEN numbers in lists are",result)   
+
+
+
+
